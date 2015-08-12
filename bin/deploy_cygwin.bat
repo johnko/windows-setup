@@ -10,6 +10,6 @@ REM HKLM:Software/Wow6432Node/Cygwin
 
 choco install cygwin cyg-get
 
-cyg-get rsync openssh
+cyg-get rsync openssh git
 
 pause
