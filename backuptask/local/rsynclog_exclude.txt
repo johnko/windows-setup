@@ -1,0 +1,6 @@
+$Recycle.Bin
+hiberfil.sys
+pagefile.sys
+System Volume Information
+Windows
+.DS_Store
