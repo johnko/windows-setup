@@ -27,10 +27,10 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-PLATFORM=`uname`
+PLATFORM=`uname -o`
 BDIR=/cygdrive/c/backuptask
 
-if [ "CYGWIN_NT-6.1" != "${PLATFORM}" ]; then
+if [ "Cygwin" != "${PLATFORM}" ]; then
     echo "ERROR: Only tested on cygwin/Windows."
     exit 1
 fi
