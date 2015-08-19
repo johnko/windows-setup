@@ -60,7 +60,7 @@ ${BDIR}/bin/rsynclog ${1} \
     -x ${BDIR}/local/rsynclog_exclude.txt \
     -i ${BDIR}/.ssh/id_ed25519 \
     -k ${BDIR}/.ssh/known_hosts \
-    -s /cygdrive/c/ \
+    -s /cygdrive/ \
     -t ${BACKUPUSER}@${BACKUPSERVER}:/tank/${DATASET}/${NOW}/ \
 && ESTATUS=$?
 
