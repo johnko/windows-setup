@@ -8,7 +8,7 @@ DATASET=tank/urep/computer_name
 # needed because Windows has no idea where PATH is
 PATH=$PATH:/usr/bin
 BDIR=/cygdrive/c/backuptask
-NOW=`date -u +%y%m%d-%H%M%S`
+NOW=`date -u +%Y%m%d-%H%M%S`
 
 
 # if running, exit
